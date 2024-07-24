@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="main_container">
-    <img src="img/GrantDavis_Headshot.jpeg" alt="Headshot of Grant Davis" width="300px" class="main_pic">
+    <img src="img/Headshot/GrantDavis_Headshot.jpeg" alt="Headshot of Grant Davis" width="300px" class="main_pic">
 
     <h1 style="text-align: center;"> Grant Davis <h1>
     <h3 style="text-align: center;"> Software Engineer </h3>
@@ -34,35 +34,64 @@
       <li><p><b> Database: </b> SQL, PostgreSQL, ActiveRecord </p></li>
     </ul>
 
-    <h2> Projects </h2>
+    <h2> My Projects </h2>
 
-    <details>
-      <summary><b><a href="https://github.com/The-Sunken-Isles-First-Mate"> The Sunken Isles First Mate </a></b></summary>
+      <div class="project_title">
+        <h2><b> The Sunken Isles First Mate </a></b></h2>
+      </div>
+
+      <video width="100%" controls>
+        <source src="video/SunkenIslesFM_DemoComp24.mp4" type="video/mp4">
+      </video>
 
       <ul>
-        <li><p><b> Type: </b> Group of 5 </p></li>
-        <li><p><b> Deployment Link: </b> <span style="color: red;"> No live deployment unfortunately </span></p></li>
-        <li><p><b> Tech Stack: </b> Ruby, Ruby on Rails, Heroku</p></li>
-
-        <li><p><b> Collaborators: </b> Myself, Billy Wallace, Jared Hobson, Logan Finnegan, Lance Butler </p></li>
+        <li><b><a href="https://github.com/The-Sunken-Isles-First-Mate"> Project Repository </a></b></li>
+        <li><p><b> Description: </b> Responsive web application designed to support to the Sunken Isles Dungeons & Dragons campaign, and includes campaign creation, character creation, campaign summary, campaign resource management, as well as party campaign details. </p></li>
+        <li><p><b> Team: </b> Group of 5 </p></li>
+        <li><p><b> Members: </b> Myself, Billy Wallace, Jared Hobson, Logan Finnegan, Lance Butler </p></li>
+        <li><p><b> Project Type: </b> Rails FE and Rails API BE </p></li>
+        <li><p><b> Deployment Link: </b> <span style="color: red;"> No live deployment </span></p></li>
+        <li><p><b> Tech Stack: </b> Ruby, Ruby on Rails, Heroku </p></li>
         <li><p><b> Contributions: </b>
           <ul>
-            <li> 1 </li>
-            <li> 2 </li>
-            <li> 3 </li>
-            <li> 4 </li>
+            <li> Built functionality for GitHub OAuth, regular user authentication, and new user creation. </li>
+            <li> Created the campaign resource management page with current resources and an interactive management form for villager assignment (gathering materials and crafting items). </li>
           </ul></li>
         <li><p><b> Additional: </b>
           <ul>
-            <li> This project was entered into the July 10th Demo Comp </li>
+            <li> This project was entered into the July 10th Turing Demo Comp. </li>
           </ul></li>
       </ul>
 
-      <video width="100%" controls>
-        <source src="./SunkenIslesFM_DemoComp24.mp4" type="video/mp4">
-      </video>
+      <details>
+        <summary> <span style="color:rgb(67, 43, 226);"> <b> Pictures of The Sunken Isles First Mate </b></summary>
+        <img src="img/TSIFM/Screenshot 2024-07-16 at 3.45.18 PM.png", class="screenshot">
+        <img src="img/TSIFM/Screenshot 2024-07-16 at 3.45.36 PM.png", class="screenshot">
+        <img src="img/TSIFM/Screenshot 2024-07-16 at 3.45.49 PM.png", class="screenshot">
+        <img src="img/TSIFM/Screenshot 2024-07-16 at 3.46.26 PM.png", class="screenshot">
+        <img src="img/TSIFM/Screenshot 2024-07-16 at 3.47.51 PM.png", class="screenshot">
+      </details>
 
-    </details>
+      <div class="project_title">
+        <h2><b> Habit Heroes BE </a></b></h2>
+      </div>
+
+      <ul>
+        <li><b><a href="https://github.com/habit-heroes/habit-heroes-be"> Project Repository </a></b></li>
+        <li><p><b> Description: </b> Rails API with six total end points designed to be called by the Habit Heroes FE React application. </p></li>
+        <li><p><b> Team: </b> Group of 3 </p></li>
+        <li><p><b> Members: </b> Myself, Laurel Bonal, Brandon Doza </p></li>
+        <li><p><b> Project Type: </b> Rails API BE </p></li>
+        <li><p><b> Deployment Link: </b> <span style="color: red;"> No live deployment </span></p></li>
+        <li><p><b> Tech Stack: </b> Ruby, Ruby on Rails, Heroku</p></li>
+        <li><p><b> Contributions: </b>
+          <ul>
+            <li> Built the Rails API backend with 6 RESTful End Points (4 GET, 1 POST, and 1 PATCH), each with both happy and sad path responses. </li>
+            <li> Implemented Continuous Integration (CI) through GitHub Actions and Continuous Deployment (CD) through Heroku. </li>
+            <li> Managed all deliverables with the team's GitHub project board. </li>
+            <li> 100% test coverage on 69 tests (23 for requests and 46 for models). </li>
+          </ul>
+      </ul>
 
   </div>
 </body>
