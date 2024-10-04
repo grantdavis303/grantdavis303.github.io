@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5, h6, div {
   margin: 0;
 }
 
+h3.position {
+  font-weight: 400;
+}
+
 h1.name, h3.position {
   margin: 20px;
 }
@@ -90,10 +94,5 @@ img.screenshot:hover {
 
 a.title {
   text-decoration: none;
-  color: black;
-}
-
-a.title:hover {
-  transition: 0.5s;
   color: blueviolet;
 }
