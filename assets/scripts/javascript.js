@@ -17,5 +17,5 @@ function updateTime() {
     formattedMinutes = minuteNow;
   }
 
-  document.getElementById("time").innerHTML = `${formattedHour}:${formattedMinutes} ${am_pm} MT`;
+  document.getElementById("time").innerHTML = `${formattedHour}:${formattedMinutes} ${am_pm}`;
 }
