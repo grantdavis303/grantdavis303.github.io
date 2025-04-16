@@ -1,3 +1,7 @@
 # Grant's Portfolio
 
-Hello there! Welcome to my portfolio. It's nothing too crazy, but I hope you take a look around and enjoy!
+[Deployed Portfolio](https://grantdavis303.github.io/)
+
+Hi there! Welcome to my personal portfolio repository. Please take a look around at some of my projects and enjoy!
+
+Grant
