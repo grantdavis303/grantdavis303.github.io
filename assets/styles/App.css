@@ -1,0 +1,86 @@
+div.main_container {
+  width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+div.links {
+  width: fit-content;
+  margin: 40px auto;
+}
+
+div.section {
+  width: fit-content;
+  margin: 60px auto;
+}
+
+div.titleContainer {
+  margin: unset;
+  padding: unset;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+div.titleContainer > :first-child {
+  margin-top: unset;
+}
+
+p.emphasized {
+  font-style: italic;
+}
+
+a.link {
+  color: rgb(43, 98, 226);
+  font-weight: bold;
+  margin: 40px;
+}
+
+a.repoLink {
+  background-color: var(--surface);
+  color: var(--text);
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+a.repoLink:hover {
+  background-color: var();
+  transition: 0.5s;
+}
+
+div.carousel-inner {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+div.carousel-item.active {
+  margin-left: 0;
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+button:hover {
+  background: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* Icons */
+
+div#icons {
+  display: flex;
+  gap: 0.25rem;
+  margin: 0rem 0rem 1rem 0rem;
+  padding: unset;
+}
+
+img.icon {
+  width: 1.5rem;
+}

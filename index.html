@@ -4,50 +4,198 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="./assets/icons/favicon.ico" type="image/x-icon" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Funnel+Sans:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
-  <link rel="stylesheet" href="./assets/styles/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/styles/Good.css">
+  <link rel="stylesheet" href="./assets/styles/App.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   <script src="./assets/scripts/javascript.js" type="text/javascript"></script>
   <title> Grant Davis </title>
 </head>
 <body>
   <div class="main_container">
-    <h1 class="name"> Grant Davis </h1>
-    <p id="time"></p>
+      <div class="titleContainer">
+        <h1 class="name"> Grant Davis </h1>
+      </div>
 
-    <div class="links">
-      <a href="https://github.com/grantdavis303" class="link" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/grantdavis303/" class="link" target="_blank">LinkedIn</a>
+      <div id='icons'>
+        <a href='https://www.linkedin.com/in/grantdavis303/' target='_blank'><img src='./assets/icons/linkedin_icon.svg' class='icon' /></a>
+        <a href='https://github.com/grantdavis303' target='_blank'><img src='./assets/icons/github_icon.svg' class='icon' /></a>
+      </div>
+
+      <p id="time"></p>
+
+    <!-- Sticky Notes -->
+
+    <div class="section" id="sticky_notes">
+      <div class="titleContainer">
+        <h2> Sticky Notes - <span style="color: var(--primary);">Coming Soon!</span> </h2>
+        <!-- <p><a class="repoLink" href="https://github.com/grantdavis303/commit_buddy_chrome_extension" target="_blank"> View GitHub Repo </a></p>
+        <p><a class="repoLink" href="https://chromewebstore.google.com/detail/commit-buddy/jfidkngbdohmegijjkggecihaokmcgof?authuser=0&hl=en" target="_blank"> View on Chrome Store </a></p> -->
+      </div>
+
+      <p> A full stack sticky notes application with full CRUD functionality. Users can create, read, update, and delete notes through a responsive interface backed by a persistent database. </p>
+      <p class="emphasized"> Built with React.js, TypeScript / TSX, Express.js, and PostgreSQL </p>
+
+    <!--
+
+      <ul>
+        <li> Converted a simple JavaScript web page into a React application using Vite, improving modularity and maintainability, and later converted into a Google Chrome extension, enabling easy access from the browser. </li>
+        <li> Built and integrated interactive UI components and state management to provide a seamless user experience. </li>
+        <li> Learned and applied modern frontend tooling and Chrome Extension APIs to extend application reach. </li>
+        <li> Managed the full development lifecycle, including planning, coding, and deployment of the Chrome Extension. </li>
+      </ul>
+
+      <div id="carouselStickyNotes" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/images/commit_buddy/1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/commit_buddy/2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/commit_buddy/3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/commit_buddy/4.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/commit_buddy/5.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/commit_buddy/6.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/commit_buddy/7.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/commit_buddy/8.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/commit_buddy/9.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselStickyNotes" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselStickyNotes" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    -->
     </div>
 
-    <h2><b> Personal Projects </b></h2>
+    <!-- Commit Buddy Chrome Extension -->
 
     <div class="section" id="commit_buddy">
-      <h2><b><a href="https://github.com/grantdavis303/commit_buddy_chrome_extension" class="title" target="_blank"> Commit Buddy (now a Chrome Extension!)</a></b></h2>
-      <p><a href="https://chromewebstore.google.com/detail/commit-buddy/jfidkngbdohmegijjkggecihaokmcgof?authuser=0&hl=en"> See Commit Buddy in the Chrome Web Store </a></p>
-      <p> A simple JavaScript tool that dynamically creates Git commit commands based on user input. </p>
-      <img src="./assets/gifs/commit_buddy/commit_buddy_gif.gif" class="screenshot">
+      <div class="titleContainer">
+        <h2> Commit Buddy Chrome Extension </h2>
+        <p><a class="repoLink" href="https://github.com/grantdavis303/commit_buddy_chrome_extension" target="_blank"> View GitHub Repo </a></p>
+        <p><a class="repoLink" href="https://chromewebstore.google.com/detail/commit-buddy/jfidkngbdohmegijjkggecihaokmcgof?authuser=0&hl=en" target="_blank"> View on Chrome Store </a></p>
+      </div>
+
+      <p> Developer productivity tool designed to reduce friction in Git workflows by generating commit messages in the browser. </p>
+      <p class="emphasized"> Built with React.js, Vite, JavaScript / JSX, and Material UI </p>
+
+      <ul>
+        <li> Converted a simple JavaScript web page into a React application using Vite, improving modularity and maintainability, and later converted into a Google Chrome extension, enabling easy access from the browser. </li>
+        <li> Built and integrated interactive UI components and state management to provide a seamless user experience. </li>
+        <li> Learned and applied modern frontend tooling and Chrome Extension APIs to extend application reach. </li>
+        <li> Managed the full development lifecycle, including planning, coding, and deployment of the Chrome Extension. </li>
+      </ul>
+
+      <div id="carouselCommitBuddy" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/images/commit_buddy/1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/commit_buddy/2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/commit_buddy/3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/commit_buddy/4.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/commit_buddy/5.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/commit_buddy/6.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/commit_buddy/7.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/commit_buddy/8.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/commit_buddy/9.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCommitBuddy" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCommitBuddy" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
 
-    <div class="section" id="taper">
-      <h2><b><a href="https://github.com/grantdavis303/taper" class="title" target="_blank"> Taper </a></b></h2>
-      <p> An educational health and wellness web application that allows users to track their alcoholic unit consumption by entering in values for a drink’s ounces and alcohol-by-volume (ABV) percentage. </p>
-      <img src="./assets/gifs/taper/taper_gif.gif" class="screenshot">
-    </div>
-
-    <h2><b> Turing Projects </b></h2>
-
-    <div class="section" id="sunken_isles">
-      <h2><b><a href="https://github.com/The-Sunken-Isles-First-Mate/first-mate-fe" class="title" target="_blank"> Sunken Isles First Mate </a></b></h2>
-      <p> A responsive web application that supports the Sunken Isles Dungeons & Dragons campaign and allows users to track their campaign progress, villager count, available resources, and owned items. </p>
-      <img src="./assets/gifs/sunken_isles/sunken_isles_gif.gif" class="screenshot">
-    </div>
+    <!-- Habit Heroes REST API -->
 
     <div class="section" id="habit_heroes">
-      <h2><b><a href="https://github.com/habit-heroes/habit-heroes-be" class="title" target="_blank"> Habit Heroes API </a></b></h2>
+      <div class="titleContainer">
+        <h2> Habit Heroes REST API </h2>
+        <p><a class="repoLink" href="https://github.com/habit-heroes/habit-heroes-be" target="_blank"> View GitHub Repo </a></p>
+      </div>
+
       <p> A RESTful Ruby on Rails API designed to be called by the Habit Heroes React frontend application. </p>
-      <img src="./assets/gifs/habit_heroes/habit_heroes_gif.gif" class="screenshot">
+      <p class="emphasized"> Built with Built with Ruby on Rails and PostgreSQL </p>
+
+      <ul>
+        <li> Designed and implemented 6 endpoints with JSON responses for user, habit, and streak management. </li>
+        <li> Developed and executed 69 RSpec unit tests and validated endpoints with Postman, achieving 100% test coverage across models and endpoints. </li>
+        <li> Built scalable user-habit management functionality, supporting future web and mobile integrations. </li>
+        <li> Implemented endpoint validations and standardized JSON responses, improving reliability and developer experience. </li>
+      </ul>
+
+      <div id="carouselHabitHeroes" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/images/habit_heroes/1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/habit_heroes/2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/habit_heroes/3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/habit_heroes/4.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselHabitHeroes" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselHabitHeroes" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
   </div>
 
