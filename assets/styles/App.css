@@ -1,5 +1,5 @@
 div.main_container {
-  width: 1200px;
+  max-width: 1000px;
   padding: 20px;
   margin: 0 auto;
 }
@@ -38,32 +38,17 @@ a.link {
 }
 
 a.repoLink {
-  background-color: var(--surface);
-  color: var(--text);
-  padding: 0.25rem;
+  background-color: var(--primary);
   border-radius: 0.25rem;
+  color: var(--bg);
+  font-weight: bold;
+  padding: 0.5rem;
 }
 
 a.repoLink:hover {
-  background-color: var();
+  background-color: var(--secondary);
+  color: var(--inverse);
   transition: 0.5s;
-}
-
-div.carousel-inner {
-  border: 2px solid black;
-  border-radius: 10px;
-}
-
-div.carousel-item.active {
-  margin-left: 0;
-}
-
-.carousel-control-prev-icon {
- background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-}
-
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 button:hover {
@@ -83,4 +68,20 @@ div#icons {
 
 img.icon {
   width: 1.5rem;
+}
+
+/* Images */
+
+img.banner {
+  margin: 4rem auto;
+  border: 2px solid var(--text);
+  border-radius: var(--radius-sm);
+  width: 1000px;
+  height: auto;
+}
+
+@media (width <= 600px) {
+  div.titleContainer {
+    display: inline-block;
+  }
 }
